@@ -20,18 +20,18 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "TXLiteAVSDK_TRTC_Mac",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/trtc_mac/13.5.0.21355/TXLiteAVSDK_TRTC_Mac.xcframework.zip",
-            checksum: "423ebb1a26f9312768d401a04fc627bc9a558381ec6bbb6bcb4466ee518ea531"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/trtc_mac/13.6.0.21648/TXLiteAVSDK_TRTC_Mac.xcframework.zip",
+            checksum: "fb46c231ee6a7420f045bbdebcdf83d66700c787bec6102988c21111ace3f4db"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/trtc_mac/13.5.0.21355/TXFFmpeg.xcframework.zip",
-            checksum: "768d883b4bd67fe1a4cbf026ede09898d267f2bda87339e20f22a95e13dc2827"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/trtc_mac/13.6.0.21648/TXFFmpeg.xcframework.zip",
+            checksum: "4d5b8f9604dd57ec3a7ff66b24326bac77de42d5bbf50300a64a26b7d263720b"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.5/trtc_mac/13.5.0.21355/TXSoundTouch.xcframework.zip",
-            checksum: "44ba869eb82940c24270c82bc05301ba609eb6b298114a28e8f2138a6c6b749a"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.6/trtc_mac/13.6.0.21648/TXSoundTouch.xcframework.zip",
+            checksum: "0d16309f9315cf67b69521629fff320c61c1b3645d9cae1aceb65e5e81017a26"
         ),
 
         .target(
